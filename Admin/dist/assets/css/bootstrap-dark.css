@@ -9268,7 +9268,9 @@ label {
   position: relative; }
 
 .bg-primary.bg-soft {
-  background-color: rgba(85, 110, 230, 0.25) !important; }
+
+  background-color: rgba(42, 48, 66, 1) !important; }
+/*background-color: rgba(85, 110, 230, 0.25) !important; } DEFAULT*/
 
 .bg-secondary.bg-soft {
   background-color: rgba(195, 203, 228, 0.25) !important; }
