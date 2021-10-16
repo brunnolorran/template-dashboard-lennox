@@ -842,11 +842,22 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-8">
-                                                <div class="text-sm-end">
-                                                    <button type="button" class="btn btn-success btn-rounded waves-effect waves-light mb-2 me-2"><i class="mdi mdi-plus me-1"></i>Novo Pedido</button>
+                                                <div class="btn-group">
+                                                <button type="button" class="btn btn-secondary">Exportar</button>
+                                                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="mdi mdi-chevron-down"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">PDF</a>
+                                                    <a class="dropdown-item" href="#">Excel</a>
+                                                    <a class="dropdown-item" href="#">CSV</a>
+                                                    
                                                 </div>
+                                            </div><!-- /btn-group -->
                                             </div><!-- end col-->
                                         </div>
+
+
 
                                         <div class="table-responsive">
                                             <table class="table align-middle table-nowrap table-check">
@@ -1187,11 +1198,7 @@
                                                         <td>
                                                             <!-- Button trigger modal -->
                                                             <button type="button" class="btn btn-primary btn-sm btn-rounded" data-bs-toggle="modal" data-bs-target=".orderdetailsModal">
-                                                                Visualizar
-
-
-
-                                                            </button>
+                                                                Visualizar</button>
                                                         </td>
                                                         <td>
                                                             <div class="d-flex gap-3">
