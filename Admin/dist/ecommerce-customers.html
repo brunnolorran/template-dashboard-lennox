@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
     <head>
         
@@ -810,12 +810,12 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">Customers</h4>
+                                    <h4 class="mb-sm-0 font-size-18">Clientes</h4>
 
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Ecommerce</a></li>
-                                            <li class="breadcrumb-item active">Customers</li>
+                                            <li class="breadcrumb-item active">Clientes</li>
                                         </ol>
                                     </div>
 
@@ -836,13 +836,37 @@
                                                         <i class="bx bx-search-alt search-icon"></i>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div>                                            
                                             <div class="col-sm-8">
-                                                <div class="text-sm-end">
-                                                    <button type="button" class="btn btn-success btn-rounded waves-effect waves-light mb-2 me-2"><i class="mdi mdi-plus me-1"></i> New Customers</button>
+                                                 <div class="btn-group">
+                                                <button type="button" class="btn btn-secondary">Exportar</button>
+                                                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="mdi mdi-chevron-down"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">PDF</a>
+                                                    <a class="dropdown-item" href="#">Excel</a>
+                                                    <a class="dropdown-item" href="#">CSV</a>
+                                                    
                                                 </div>
-                                            </div><!-- end col-->
+                                            </div><!-- /btn-group -->
+
+                                              <div class="btn-group">
+                                                <button type="button" class="btn btn-warning">Ações</button>
+                                                <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="mdi mdi-chevron-down"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Bloquear</a>
+                                                    <a class="dropdown-item" href="#">Cessar</a>
+                                                    
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Ativar</a>
+                                                </div>
+                                            </div><!-- /btn-group -->
+                                        </div><!-- end col-->
                                         </div>
+                                       
 
                                         <div class="table-responsive">
                                             <table class="table align-middle table-nowrap">
@@ -874,8 +898,8 @@
                                                         
                                                         <td>
                                                             <p>Rua Evaristo da Veiga,2910</p>
-                                                            <p>Boqueirão, Curitiba-PR</p>
-                                                            <p>81670-460</p>
+                                                              <p>Boqueirão, Curitiba-PR</p>
+                                                              <p>81670-460</p>
                                                         </td>
                                                         <td><span class="badge bg-success font-size-12"><i class="mdi mdi-star me-1"></i> 6</span></td>
                                                         <td>R$5.412</td>
@@ -904,28 +928,30 @@
                                                                 <label class="form-check-label" for="customerlistcheck02"></label>
                                                             </div>
                                                         </td>
-                                                        <td>Juan Mays</td>
+                                                        <td>Brunno Lorran</td>
                                                         <td>
                                                             <p class="mb-1">443-523-4726</p>
                                                             <p class="mb-0">JuanMays@armyspy.com</p>
                                                         </td>
                                                         
-                                                        <td>3755 Harron Drive
-                                                                Salisbury, MD 21875</td>
+                                                         <td>
+                                                            <p>Rua Deputado Heitor A Furtado, 3350</p>
+                                                              <p>Campo Comprido, Curitiba-PR</p>
+                                                              <p>81200-110</p>
+                                                        </td>
                                                         <td><span class="badge bg-success font-size-12"><i class="mdi mdi-star me-1"></i> 4</span></td>
                                                         <td>R$5.632</td>
                                                         <td>06 Out, 2021</td>
-                                                        <td>
-                                                            <div class="dropdown">
-                                                                <a href="#" class="dropdown-toggle card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <i class="mdi mdi-dots-horizontal font-size-18"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-pencil font-size-16 text-success me-1"></i> Edit</a></li>
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-trash-can font-size-16 text-danger me-1"></i> Delete</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
+                                                        <td>  
+                                                <div class="btn-group">
+                                                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Info <i class="mdi mdi-chevron-down"></i></button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Editar</a>
+                                                    <a class="dropdown-item" href="#">Acessar</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Bloquear</a>
+                                                </div>
+                                            </div><!-- /btn-group --></td>
                                                     </tr>
                                                     <tr>
                                                         <td>
@@ -940,22 +966,24 @@
                                                             <p class="mb-0">ScottLennon@jourrapide.com</p>
                                                         </td>
                                                         
-                                                        <td>3632 Snyder Avenue
-                                                                Bessemer City, NC 28016</td>
+                                                        <td>
+                                                            <p>Rua Deputado Heitor A Furtado, 3350</p>
+                                                              <p>Campo Comprido, Curitiba-PR</p>
+                                                              <p>81200-110</p>
+                                                        </td>
                                                         <td><span class="badge bg-success font-size-12"><i class="mdi mdi-star me-1"></i> 4</span></td>
                                                         <td>R$7.523</td>
                                                         <td>06 Out, 2021</td>
-                                                        <td>
-                                                            <div class="dropdown">
-                                                                <a href="#" class="dropdown-toggle card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <i class="mdi mdi-dots-horizontal font-size-18"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-pencil font-size-16 text-success me-1"></i> Edit</a></li>
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-trash-can font-size-16 text-danger me-1"></i> Delete</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
+                                                        <td>  
+                                                <div class="btn-group">
+                                                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Info <i class="mdi mdi-chevron-down"></i></button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Editar</a>
+                                                    <a class="dropdown-item" href="#">Acessar</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Bloquear</a>
+                                                </div>
+                                            </div><!-- /btn-group --></td>
                                                     </tr>
                                                     <tr>
                                                         <td>
@@ -970,22 +998,24 @@
                                                             <p class="mb-0">CodyMenendez@armyspy.com</p>
                                                         </td>
                                                         
-                                                        <td>4401 Findley Avenue
-                                                                Minot, ND 58701</td>
+                                                         <td>
+                                                            <p>Rua Deputado Heitor A Furtado, 3350</p>
+                                                              <p>Campo Comprido, Curitiba-PR</p>
+                                                              <p>81200-110</p>
+                                                        </td>
                                                         <td><span class="badge bg-success font-size-12"><i class="mdi mdi-star me-1"></i> 4</span></td>
                                                         <td>R$6.325</td>
                                                         <td>05 Out, 2021</td>
-                                                        <td>
-                                                            <div class="dropdown">
-                                                                <a href="#" class="dropdown-toggle card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <i class="mdi mdi-dots-horizontal font-size-18"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-pencil font-size-16 text-success me-1"></i> Edit</a></li>
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-trash-can font-size-16 text-danger me-1"></i> Delete</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
+                                                        <td>  
+                                                <div class="btn-group">
+                                                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Info <i class="mdi mdi-chevron-down"></i></button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Editar</a>
+                                                    <a class="dropdown-item" href="#">Acessar</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Bloquear</a>
+                                                </div>
+                                            </div><!-- /btn-group --></td>
                                                     </tr>
                                                     <tr>
                                                         <td>
@@ -1000,22 +1030,24 @@
                                                             <p class="mb-0">JasonMerino@dayrep.com</p>
                                                         </td>
                                                         
-                                                        <td>3159 Holly Street
-                                                                Cleveland, GA 30528</td>
+                                                        <td>
+                                                            <p>Rua Deputado Heitor A Furtado, 3350</p>
+                                                              <p>Campo Comprido, Curitiba-PR</p>
+                                                              <p>81200-110</p>
+                                                        </td>
                                                         <td><span class="badge bg-success font-size-12"><i class="mdi mdi-star me-1"></i>3</span></td>
                                                         <td>R$4.523</td>
                                                         <td>04 Out, 2021</td>
-                                                        <td>
-                                                            <div class="dropdown">
-                                                                <a href="#" class="dropdown-toggle card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <i class="mdi mdi-dots-horizontal font-size-18"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-pencil font-size-16 text-success me-1"></i> Edit</a></li>
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-trash-can font-size-16 text-danger me-1"></i> Delete</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
+                                                        <td>  
+                                                <div class="btn-group">
+                                                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Info <i class="mdi mdi-chevron-down"></i></button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Editar</a>
+                                                    <a class="dropdown-item" href="#">Acessar</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Bloquear</a>
+                                                </div>
+                                            </div><!-- /btn-group --></td>
                                                     </tr>
                                                     <tr>
                                                         <td>
@@ -1030,22 +1062,24 @@
                                                             <p class="mb-0">KyleAquino@teleworm.us</p>
                                                         </td>
                                                         
-                                                        <td>4861 Delaware Avenue
-                                                                San Francisco, CA 94143</td>
+                                                         <td>
+                                                            <p>Rua Deputado Heitor A Furtado, 3350</p>
+                                                              <p>Campo Comprido, Curitiba-PR</p>
+                                                              <p>81200-110</p>
+                                                        </td>
                                                         <td><span class="badge bg-success font-size-12"><i class="mdi mdi-star me-1"></i> 4</span></td>
                                                         <td>R$5.412</td>
                                                         <td>03 Out, 2021</td>
-                                                        <td>
-                                                            <div class="dropdown">
-                                                                <a href="#" class="dropdown-toggle card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <i class="mdi mdi-dots-horizontal font-size-18"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-pencil font-size-16 text-success me-1"></i> Edit</a></li>
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-trash-can font-size-16 text-danger me-1"></i> Delete</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
+                                                        <td>  
+                                                <div class="btn-group">
+                                                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Info <i class="mdi mdi-chevron-down"></i></button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Editar</a>
+                                                    <a class="dropdown-item" href="#">Acessar</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Bloquear</a>
+                                                </div>
+                                            </div><!-- /btn-group --></td>
                                                     </tr>
                                                     <tr>
                                                         <td>
@@ -1060,22 +1094,24 @@
                                                             <p class="mb-0">DavidGaul@teleworm.us</p>
                                                         </td>
                                                         
-                                                        <td>1207 Cottrill Lane
-                                                                Stlouis, MO 63101</td>
+                                                         <td>
+                                                            <p>Rua Deputado Heitor A Furtado, 3350</p>
+                                                              <p>Campo Comprido, Curitiba-PR</p>
+                                                              <p>81200-110</p>
+                                                        </td>
                                                         <td><span class="badge bg-success font-size-12"><i class="mdi mdi-star me-1"></i> 10</span></td>
                                                         <td>R$6.180</td>
                                                         <td>02 Out, 2021</td>
-                                                        <td>
-                                                            <div class="dropdown">
-                                                                <a href="#" class="dropdown-toggle card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <i class="mdi mdi-dots-horizontal font-size-18"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-pencil font-size-16 text-success me-1"></i> Edit</a></li>
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-trash-can font-size-16 text-danger me-1"></i> Delete</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
+                                                        <td>  
+                                                <div class="btn-group">
+                                                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Info <i class="mdi mdi-chevron-down"></i></button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Editar</a>
+                                                    <a class="dropdown-item" href="#">Acessar</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Bloquear</a>
+                                                </div>
+                                            </div><!-- /btn-group --></td>
                                                     </tr>
                                                     <tr>
                                                         <td>
@@ -1090,22 +1126,24 @@
                                                             <p class="mb-0">JohnMcCray@armyspy.com</p>
                                                         </td>
                                                         
-                                                        <td>3309 Horizon Circle
-                                                                Tacoma, WA 98423</td>
+                                                         <td>
+                                                            <p>Rua Deputado Heitor A Furtado, 3350</p>
+                                                              <p>Campo Comprido, Curitiba-PR</p>
+                                                              <p>81200-110</p>
+                                                        </td>
                                                         <td><span class="badge bg-success font-size-12"><i class="mdi mdi-star me-1"></i> 1</span></td>
                                                         <td>R$5.2870</td>
                                                         <td>02 Out, 2021</td>
-                                                        <td>
-                                                            <div class="dropdown">
-                                                                <a href="#" class="dropdown-toggle card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <i class="mdi mdi-dots-horizontal font-size-18"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-pencil font-size-16 text-success me-1"></i> Edit</a></li>
-                                                                    <li><a href="#" class="dropdown-item"><i class="mdi mdi-trash-can font-size-16 text-danger me-1"></i> Delete</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
+                                                        <td>  
+                                                <div class="btn-group">
+                                                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Info <i class="mdi mdi-chevron-down"></i></button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Editar</a>
+                                                    <a class="dropdown-item" href="#">Acessar</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Bloquear</a>
+                                                </div>
+                                            </div><!-- /btn-group --></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -1137,12 +1175,80 @@
                 </div>
                 <!-- End Page-content -->
 
+                 <!-- Modal -->
+                <div class="modal fade orderdetailsModal" tabindex="-1" role="dialog" aria-labelledby=orderdetailsModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id=orderdetailsModalLabel"> Histórico de Pedidos</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="mb-2">Cliente: <span class="text">Lennon Reikdal</span></p>
+
+                                <div class="table-responsive">
+                                    <table class="table align-middle table-nowrap">
+                                        <thead>
+                                            <tr>
+                                            <th scope="col">Data</th>
+                                            <th scope="col">Pedido</th>
+                                            <th scope="col">Valor</th>
+                                            <th scope="col">Detalhes</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">
+                                                    <div>
+                                                       <p class="text-muted mb-0">01/10/2021</p> 
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div>
+                                                        <h5 class="text-truncate font-size-14">#LX214582</h5>
+                                                       
+                                                    </div>
+                                                </td>
+                                                <td>R$255</td>
+
+                                                <td><button type="button" class="btn btn-info waves-effect waves-light">Ver</button></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <div>
+                                                        <p class="text-muted mb-0">20/07/2021</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div>
+                                                        <h5 class="text-truncate font-size-14">#LX125225</h5>
+                                                        
+                                                    </div>
+                                                </td>
+                                                <td>R$ 145,00</td>
+                                                 <td><button type="button" class="btn btn-info waves-effect waves-light">Ver</button></td>
+                                            </tr>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end modal -->
+
                 
                 <footer class="footer">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
-                                <script>document.write(new Date().getFullYear())</script> © Skote.
+                                <script>document.write(new Date().getFullYear())</script> © Lenox.
                             </div>
                             <div class="col-sm-6">
                                 <div class="text-sm-end d-none d-sm-block">
