@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="utf-8" />
-        <title>Dashboard | Skote - Admin & Dashboard Template</title>
+        <title>Dashboard | Lenox - Admin & Dashboard Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
@@ -17,7 +17,6 @@
         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <!-- App Css-->
         <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
-
     </head>
 
     <body data-sidebar="dark">
@@ -26,7 +25,6 @@
 
         <!-- Begin page -->
         <div id="layout-wrapper">
-
             
             <header id="page-topbar">
                 <div class="navbar-header">
@@ -391,7 +389,7 @@
                                 </div>
                                 <div class="p-2 border-top d-grid">
                                     <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
-                                        <i class="mdi mdi-arrow-right-circle me-1"></i> <span key="t-view-more">View More..</span> 
+                                        <i class="mdi mdi-arrow-right-circle me-1"></i> <span key="t-view-more">Ver mais</span> 
                                     </a>
                                 </div>
                             </div>
@@ -873,26 +871,50 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title mb-4">Monthly Earning</h4>
+                                        <h4 class="card-title mb-4">Vendas para Cliente Final</h4>
                                         <div class="row">
                                             <div class="col-sm-6">
-                                                <p class="text-muted">This month</p>
-                                                <h3>$34,252</h3>
-                                                <p class="text-muted"><span class="text-success me-2"> 12% <i class="mdi mdi-arrow-up"></i> </span> From previous period</p>
+                                                <p class="text-muted">Este mês</p>
+                                                <h3>R$34.252</h3>
+                                                <p class="text-muted"><span class="text-success me-2"> 12% <i class="mdi mdi-arrow-up"></i> </span> Do mês anterior</p>
 
                                                 <div class="mt-4">
-                                                    <a href="javascript: void(0);" class="btn btn-primary waves-effect waves-light btn-sm">View More <i class="mdi mdi-arrow-right ms-1"></i></a>
+                                                    <a href="javascript: void(0);" class="btn btn-primary waves-effect waves-light btn-sm">Ver mais <i class="mdi mdi-arrow-right ms-1"></i></a>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
                                                 <div class="mt-4 mt-sm-0">
-                                                    <div id="radialBar-chart" class="apex-charts"></div>
+                                                    <div id="radialBar-chart" class="apex-charts">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <p class="text-muted mb-0">We craft digital, graphic and dimensional thinking.</p>
                                     </div>
                                 </div>
+
+                                 <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Vendas para Consultor</h4>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <p class="text-muted">Este mês</p>
+                                                <h3>R$94.252</h3>
+                                                <p class="text-muted"><span class="text-success me-2"> 28% <i class="mdi mdi-arrow-up"></i> </span> Do mês anterior</p>
+
+                                                <div class="mt-4">
+                                                    <a href="javascript: void(0);" class="btn btn-primary waves-effect waves-light btn-sm">Ver mais <i class="mdi mdi-arrow-right ms-1"></i></a>
+                                                </div>
+                                            </div>  
+                                            <div class="col-sm-6">
+                                                <div class="mt-4 mt-sm-0">
+                                                    <div id="radialBar-chart" class="apex-charts">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                             <div class="col-xl-8">
                                 <div class="row">
@@ -901,7 +923,7 @@
                                             <div class="card-body">
                                                 <div class="d-flex">
                                                     <div class="flex-grow-1">
-                                                        <p class="text-muted fw-medium">Pedidos</p>
+                                                        <p class="text-muted fw-medium"><a href="file:///home/lennonreikdal/Documents/study/lenox/Admin/dist/ecommerce-orders.html">Pedidos</a></p>
                                                         <h4 class="mb-0">1.235</h4>
                                                     </div>
 
@@ -955,9 +977,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>    
                                 </div>
                                 <!-- end row -->
+
 
                                 <div class="card">
                                     <div class="card-body">
@@ -977,29 +1000,51 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        
                                         <div id="stacked-column-chart" class="apex-charts" dir="ltr"></div>
                                     </div>
                                 </div>
+
+                                <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Column with Data Labels</h4>
+                                        
+                                        <div id="column_chart_datalabel" class="apex-charts" dir="ltr"></div>
+                                    </div>
+                                </div><!--end card-->
                             </div>
-                        </div>
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Bar Chart</h4>
+                                        
+                                        <div id="bar_chart" class="apex-charts" dir="ltr"></div>
+                                    </div>
+                                </div><!--end card-->
+                            </div>
+                        </div>  
                         <!-- end row -->
 
+
+                            </div>    
+                        </div>
+                        <!-- end row -->
                         <div class="row">
                             <div class="col-xl-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title mb-4">Social Source</h4>
+                                        <h4 class="card-title mb-4">Redes Sociais</h4>
                                         <div class="text-center">
                                             <div class="avatar-sm mx-auto mb-4">
-                                                <span class="avatar-title rounded-circle bg-primary bg-soft font-size-24">
-                                                        <i class="mdi mdi-facebook text-primary"></i>
+                                                 <span class="avatar-title rounded-circle bg-pink font-size-24">
+                                                        <i class="mdi mdi-instagram text-white"></i>
                                                     </span>
                                             </div>
                                             <p class="font-16 text-muted mb-2"></p>
-                                            <h5><a href="javascript: void(0);" class="text-dark">Facebook - <span class="text-muted font-16">125 sales</span> </a></h5>
-                                            <p class="text-muted">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus tincidunt.</p>
-                                            <a href="javascript: void(0);" class="text-primary font-16">Learn more <i class="mdi mdi-chevron-right"></i></a>
+                                            <h5><a href="javascript: void(0);" class="text-dark">Instagram - <span class="text-muted font-16">1.2M</span> </a></h5>
+                                            <p class="text-muted">Relação de Seguidores nas Redes Sociais</p>
+                                           
                                         </div>
                                         <div class="row mt-4">
                                             <div class="col-4">
@@ -1010,7 +1055,8 @@
                                                             </span>
                                                     </div>
                                                     <h5 class="font-size-15">Facebook</h5>
-                                                    <p class="text-muted mb-0">125 sales</p>
+                                                    <p class="text-muted mb-0">1M</p>
+                                                    <a href="javascript: void(0);" class="text-primary font-16">Acessar<i class="mdi mdi-chevron-right"></i></a>
                                                 </div>
                                             </div>
                                             <div class="col-4">
@@ -1021,7 +1067,8 @@
                                                             </span>
                                                     </div>
                                                     <h5 class="font-size-15">Twitter</h5>
-                                                    <p class="text-muted mb-0">112 sales</p>
+                                                    <p class="text-muted mb-0">510K</p>
+                                                    <a href="javascript: void(0);" class="text-primary font-16">Acessar<i class="mdi mdi-chevron-right"></i></a>
                                                 </div>
                                             </div>
                                             <div class="col-4">
@@ -1032,7 +1079,8 @@
                                                             </span>
                                                     </div>
                                                     <h5 class="font-size-15">Instagram</h5>
-                                                    <p class="text-muted mb-0">104 sales</p>
+                                                    <p class="text-muted mb-0">1.2M</p>
+                                                    <a href="javascript: void(0);" class="text-primary font-16">Acessar<i class="mdi mdi-chevron-right"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1043,7 +1091,7 @@
                             <div class="col-xl-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title mb-5">Activity</h4>
+                                        <h4 class="card-title mb-5">Eventos Recentes</h4>
                                         <ul class="verti-timeline list-unstyled">
                                             <li class="event-list">
                                                 <div class="event-timeline-dot">
@@ -1055,7 +1103,7 @@
                                                     </div>
                                                     <div class="flex-grow-1">
                                                         <div>
-                                                            Responded to need “Volunteer Activities
+                                                            Brunno Lorran foi promovido a Diamante
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1070,7 +1118,7 @@
                                                     </div>
                                                     <div class="flex-grow-1">
                                                         <div>
-                                                            Everyone realizes why a new common language would be desirable... <a href="javascript: void(0);">Read more</a>
+                                                          Lennon indicou cinco pessoas
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1085,7 +1133,7 @@
                                                     </div>
                                                     <div class="flex-grow-1">
                                                         <div>
-                                                            Joined the group “Boardsmanship Forum”
+                                                            Guilherme Martins foi promovido a Ouro
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1100,13 +1148,13 @@
                                                     </div>
                                                     <div class="flex-grow-1">
                                                         <div>
-                                                            Responded to need “In-Kind Opportunity”
+                                                           Guilherme Martins indicou duas pessoas
                                                         </div>
                                                     </div>
                                                 </div>
                                             </li>
                                         </ul>
-                                        <div class="text-center mt-4"><a href="javascript: void(0);" class="btn btn-primary waves-effect waves-light btn-sm">View More <i class="mdi mdi-arrow-right ms-1"></i></a></div>
+                                        <div class="text-center mt-4"><a href="javascript: void(0);" class="btn btn-primary waves-effect waves-light btn-sm">Ver mais <i class="mdi mdi-arrow-right ms-1"></i></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -1114,14 +1162,14 @@
                             <div class="col-xl-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title mb-4">Top Cities Selling Product</h4>
+                                        <h4 class="card-title mb-4">Volume de pedidos por cidade</h4>
 
                                         <div class="text-center">
                                             <div class="mb-4">
                                                 <i class="bx bx-map-pin text-primary display-4"></i>
                                             </div>
-                                            <h3>1,456</h3>
-                                            <p>San Francisco</p>
+                                            <h3>1.456</h3>
+                                            <p>Curitiba</p>
                                         </div>
 
                                         <div class="table-responsive mt-4">
@@ -1129,10 +1177,10 @@
                                                 <tbody>
                                                     <tr>
                                                         <td style="width: 30%">
-                                                            <p class="mb-0">San Francisco</p>
+                                                            <p class="mb-0">Curitiba</p>
                                                         </td>
                                                         <td style="width: 25%">
-                                                            <h5 class="mb-0">1,456</h5></td>
+                                                            <h5 class="mb-0">1.456</h5></td>
                                                         <td>
                                                             <div class="progress bg-transparent progress-sm">
                                                                 <div class="progress-bar bg-primary rounded" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1141,10 +1189,10 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <p class="mb-0">Los Angeles</p>
+                                                            <p class="mb-0">São Paulo</p>
                                                         </td>
                                                         <td>
-                                                            <h5 class="mb-0">1,123</h5>
+                                                            <h5 class="mb-0">1.123</h5>
                                                         </td>
                                                         <td>
                                                             <div class="progress bg-transparent progress-sm">
@@ -1154,10 +1202,10 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <p class="mb-0">San Diego</p>
+                                                            <p class="mb-0">Rio de Janeiro</p>
                                                         </td>
                                                         <td>
-                                                            <h5 class="mb-0">1,026</h5>
+                                                            <h5 class="mb-0">1.026</h5>
                                                         </td>
                                                         <td>
                                                             <div class="progress bg-transparent progress-sm">
@@ -1173,200 +1221,127 @@
                             </div>
                         </div>
                         <!-- end row -->
-
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title mb-4">Latest Transaction</h4>
-                                        <div class="table-responsive">
-                                            <table class="table align-middle table-nowrap mb-0">
+                                        <h4 class="card-title mb-4"><a href="file:///home/lennonreikdal/Documents/study/lenox/Admin/dist/ecommerce-orders.html">Últimos pedidos</a></h4>
+                                         <div class="table-responsive">
+                                            <table class="table align-middle table-nowrap table-check">
                                                 <thead class="table-light">
                                                     <tr>
-                                                        <th style="width: 20px;">
-                                                            <div class="form-check font-size-16 align-middle">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck01">
-                                                                <label class="form-check-label" for="transactionCheck01"></label>
-                                                            </div>
-                                                        </th>
-                                                        <th class="align-middle">Order ID</th>
-                                                        <th class="align-middle">Billing Name</th>
-                                                        <th class="align-middle">Date</th>
+                                                        
+                                                        <th class="align-middle">Pedido</th>
+                                                        <th class="align-middle">Cliente</th>
+                                                        <th class="align-middle">Data</th>
                                                         <th class="align-middle">Total</th>
-                                                        <th class="align-middle">Payment Status</th>
-                                                        <th class="align-middle">Payment Method</th>
-                                                        <th class="align-middle">View Details</th>
+                                                        <th class="align-middle">Status Pagamento</th>
+                                                        <th class="align-middle">Meio de Pagamento</th>
+                                                        <th class="align-middle">Detalhes
+ do Pedido</th>
+                                                        
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
+                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#LX2540</a> </td>
+                                                        <td>Lennon Reikdal</td>
                                                         <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck02">
-                                                                <label class="form-check-label" for="transactionCheck02"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2540</a> </td>
-                                                        <td>Neal Matthews</td>
-                                                        <td>
-                                                            07 Oct, 2019
+                                                            07 Out, 2021
                                                         </td>
                                                         <td>
-                                                            $400
+                                                            R$400
                                                         </td>
                                                         <td>
-                                                            <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
+                                                            <span class="badge badge-pill badge-soft-success font-size-12">Pago</span>
                                                         </td>
                                                         <td>
                                                             <i class="fab fa-cc-mastercard me-1"></i> Mastercard
                                                         </td>
                                                         <td>
                                                             <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
+                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded" data-bs-toggle="modal" data-bs-target=".orderdetailsModal">
+                                                                Visualizar
                                                             </button>
                                                         </td>
+                                                       
                                                     </tr>
 
                                                     <tr>
+                                                        
+                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#LX2541</a> </td>
+                                                        <td>Brunno Lorran</td>
                                                         <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck03">
-                                                                <label class="form-check-label" for="transactionCheck03"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2541</a> </td>
-                                                        <td>Jamal Burnett</td>
-                                                        <td>
-                                                            07 Oct, 2019
+                                                            07 Out, 2021
                                                         </td>
                                                         <td>
-                                                            $380
+                                                            R$380
                                                         </td>
                                                         <td>
-                                                            <span class="badge badge-pill badge-soft-danger font-size-11">Chargeback</span>
+                                                            <span class="badge badge-pill badge-soft-danger font-size-12">Cancelado</span>
                                                         </td>
                                                         <td>
                                                             <i class="fab fa-cc-visa me-1"></i> Visa
                                                         </td>
                                                         <td>
                                                             <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
+                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded" data-bs-toggle="modal" data-bs-target=".orderdetailsModal">
+                                                                Visualizar
+
+
+
                                                             </button>
                                                         </td>
+                                                       
                                                     </tr>
 
                                                     <tr>
+                                                        
+                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#LX2542</a> </td>
+                                                        <td>Oslvaldo Castro</td>
                                                         <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck04">
-                                                                <label class="form-check-label" for="transactionCheck04"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2542</a> </td>
-                                                        <td>Juan Mitchell</td>
-                                                        <td>
-                                                            06 Oct, 2019
+                                                            06 Out, 2021
                                                         </td>
                                                         <td>
-                                                            $384
+                                                            R$384
                                                         </td>
                                                         <td>
-                                                            <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
+                                                            <span class="badge badge-pill badge-soft-success font-size-12">Pago</span>
                                                         </td>
                                                         <td>
                                                             <i class="fab fa-cc-paypal me-1"></i> Paypal
                                                         </td>
                                                         <td>
                                                             <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
+                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded" data-bs-toggle="modal" data-bs-target=".orderdetailsModal">
+                                                                Visualizar
+
+
+
                                                             </button>
                                                         </td>
+                                                       
                                                     </tr>
                                                     <tr>
+                                                        
+                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#LX2543</a> </td>
+                                                        <td>Guilherme Martins</td>
                                                         <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck05">
-                                                                <label class="form-check-label" for="transactionCheck05"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2543</a> </td>
-                                                        <td>Barry Dick</td>
-                                                        <td>
-                                                            05 Oct, 2019
+                                                            05 Out, 2021
                                                         </td>
                                                         <td>
-                                                            $412
+                                                            R$412
                                                         </td>
                                                         <td>
-                                                            <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
+                                                            <span class="badge badge-pill badge-soft-success font-size-12">Pago</span>
                                                         </td>
                                                         <td>
                                                             <i class="fab fa-cc-mastercard me-1"></i> Mastercard
                                                         </td>
                                                         <td>
                                                             <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck06">
-                                                                <label class="form-check-label" for="transactionCheck06"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2544</a> </td>
-                                                        <td>Ronald Taylor</td>
-                                                        <td>
-                                                            04 Oct, 2019
-                                                        </td>
-                                                        <td>
-                                                            $404
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge badge-pill badge-soft-warning font-size-11">Refund</span>
-                                                        </td>
-                                                        <td>
-                                                            <i class="fab fa-cc-visa me-1"></i> Visa
-                                                        </td>
-                                                        <td>
-                                                            <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck07">
-                                                                <label class="form-check-label" for="transactionCheck07"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2545</a> </td>
-                                                        <td>Jacob Hunter</td>
-                                                        <td>
-                                                            04 Oct, 2019
-                                                        </td>
-                                                        <td>
-                                                            $392
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
-                                                        </td>
-                                                        <td>
-                                                            <i class="fab fa-cc-paypal me-1"></i> Paypal
-                                                        </td>
-                                                        <td>
-                                                            <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
-                                                            </button>
+                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded" data-bs-toggle="modal" data-bs-target=".orderdetailsModal">
+                                                                Visualizar</button>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -1382,26 +1357,28 @@
                     <!-- container-fluid -->
                 </div>
                 <!-- End Page-content -->
-
-                <!-- Transaction Modal -->
-                <div class="modal fade transaction-detailModal" tabindex="-1" role="dialog" aria-labelledby="transaction-detailModalLabel" aria-hidden="true">
+                
+                 <!-- Modal -->
+                <div class="modal fade orderdetailsModal" tabindex="-1" role="dialog" aria-labelledby=orderdetailsModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="transaction-detailModalLabel">Order Details</h5>
+                                <h5 class="modal-title" id=orderdetailsModalLabel"> Detalhes do Pedido</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p class="mb-2">Product id: <span class="text-primary">#SK2540</span></p>
-                                <p class="mb-4">Billing Name: <span class="text-primary">Neal Matthews</span></p>
+                                <p class="mb-2">Pedido: <span class="text">#LX2540</span></p>
+                                <p class="mb-2">Cliente: <span class="text">Lennon Reikdal</span></p>
+                                <p class="mb-2">Envio: <span class="text">Correios (SEDEX)</span></p>
+                                <p class="mb-2">Rastreio: <span class="text-primary">BR0111140044477</span></p>
 
                                 <div class="table-responsive">
                                     <table class="table align-middle table-nowrap">
                                         <thead>
                                             <tr>
-                                                <th scope="col">Product</th>
-                                                <th scope="col">Product Name</th>
-                                                <th scope="col">Price</th>
+                                            <th scope="col"></th>
+                                            <th scope="col">Produto</th>
+                                            <th scope="col">Preço</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1413,11 +1390,11 @@
                                                 </th>
                                                 <td>
                                                     <div>
-                                                        <h5 class="text-truncate font-size-14">Wireless Headphone (Black)</h5>
-                                                        <p class="text-muted mb-0">$ 225 x 1</p>
+                                                        <h5 class="text-truncate font-size-14">Fone de Ouvido Bluetooth - JBL</h5>
+                                                        <p class="text-muted mb-0">R$225,00 x 1</p>
                                                     </div>
                                                 </td>
-                                                <td>$ 255</td>
+                                                <td>R$255</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -1427,26 +1404,27 @@
                                                 </th>
                                                 <td>
                                                     <div>
-                                                        <h5 class="text-truncate font-size-14">Phone patterned cases</h5>
-                                                        <p class="text-muted mb-0">$ 145 x 1</p>
+                                                        <h5 class="text-truncate font-size-14">Moletom Intergalaxy</h5>
+                                                        <p class="text-muted mb-0">R$145,00 x 1</p>
                                                     </div>
                                                 </td>
-                                                <td>$ 145</td>
+                                                <td>R$ 145,00</td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2">
-                                                    <h6 class="m-0 text-right">Sub Total:</h6>
+                                                    <h6 class="m-0 text-right">Subtotal:</h6>
                                                 </td>
                                                 <td>
-                                                    $ 400
+                                                    R$400,00
                                                 </td>
                                             </tr>
-                                            <tr>
+                                            
+                                              <tr>
                                                 <td colspan="2">
-                                                    <h6 class="m-0 text-right">Shipping:</h6>
+                                                    <h6 class="m-0 text-right">Frete:</h6>
                                                 </td>
                                                 <td>
-                                                    Free
+                                                    R$27,00
                                                 </td>
                                             </tr>
                                             <tr>
@@ -1454,22 +1432,22 @@
                                                     <h6 class="m-0 text-right">Total:</h6>
                                                 </td>
                                                 <td>
-                                                    $ 400
+                                                    R$427,00
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
+
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <a class="btn btn-primary waves-effect waves-light" href="#" role="button">Nota Fiscal</a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- end modal -->
-
-           
 
                 <footer class="footer">
                     <div class="container-fluid">
@@ -1540,8 +1518,6 @@
                         <input class="form-check-input theme-choice" type="checkbox" id="dark-rtl-mode-switch">
                         <label class="form-check-label" for="dark-rtl-mode-switch">Dark RTL Mode</label>
                     </div>
-
-            
                 </div>
 
             </div> <!-- end slimscroll-menu-->
