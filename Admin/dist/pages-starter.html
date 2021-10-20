@@ -1684,13 +1684,13 @@
                                     >
                                     <input
                                       type="email"
-                                      class="form-control"
+                                      class="form-control email"
                                       id="formrow-email-input"
+                                      placeholder="Ex.: exemplo@mail.com"
                                     />
                                   </div>
                                 </div>
                               </div>
-                              
       
                               <div class="row">
                                 <div class="col-md-6">
@@ -1701,9 +1701,9 @@
                                       >CPF</label
                                     >
                                     <input
-                                      type="email"
-                                      class="form-control"
-                                      id="formrow-email-input"
+                                      type="text"
+                                      class="form-control cpf"
+                                      id="cpf"
                                     />
                                   </div>
                                 </div>
@@ -1711,14 +1711,14 @@
                                 <div class="col-md-6">
                                   <div class="mb-3">
                                     <label
-                                      for="formrow-email-input"
+                                      for="formrow-text-input"
                                       class="form-label"
                                       >RG</label
                                     >
                                     <input
-                                      type="email"
-                                      class="form-control"
-                                      id="formrow-email-input"
+                                      type="text"
+                                      class="form-control rg"
+                                      id="formrow-rg-input"
                                     />
                                   </div>
                                 </div>
@@ -1758,8 +1758,9 @@
                                     >
                                     <input
                                       type="text"
-                                      class="form-control"
+                                      class="form-control number"
                                       id="formrow-firstname-input"
+                                
                                     />
                                   </div>
                                 </div>
@@ -1842,7 +1843,7 @@
                                     >
                                     <input
                                       type="text"
-                                      class="form-control"
+                                      class="form-control cep"
                                       id="formrow-inputZip"
                                     />
                                   </div>
@@ -2031,6 +2032,17 @@
     <script src="assets/libs/metismenu/metisMenu.min.js"></script>
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
     <script src="assets/libs/node-waves/waves.min.js"></script>
+
+    <!-- MASK -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-mask-plugin@1.14.16/dist/jquery.mask.min.js"></script>
+
+    <script type="text/javascript"> 
+    $(document).ready(function(){
+        $('.cpf').mask('000.000.000-00' , {placeholder: "Ex.: 000.000.000-00",});
+        $('.rg').mask('00.000.000-0' , {placeholder: "Ex.: 00.000.000-0"});
+        $('.cep').mask('00000-000' , {placeholder: "Ex.: 00000-000"});	
+    });</script>
 
     <script src="assets/js/app.js"></script>
   </body>
