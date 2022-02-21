@@ -18528,22 +18528,22 @@ File: Icons Css File
   }
 }
 
-.bx-spin {
+. {
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
 
-.bx-spin-hover:hover {
+.-hover:hover {
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
 
-.bx-tada {
+. {
   -webkit-animation: tada 1.5s ease infinite;
   animation: tada 1.5s ease infinite;
 }
 
-.bx-tada-hover:hover {
+.-hover:hover {
   -webkit-animation: tada 1.5s ease infinite;
   animation: tada 1.5s ease infinite;
 }
