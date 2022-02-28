@@ -25,14 +25,14 @@
     <div class="account-pages my-5 pt-sm-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 col-xl-5">
+                <div class="col-md-8 col-lg-6 col-xl-7">
                     <div class="card overflow-hidden">
                         <div class="bg-primary bg-soft">
                             <div class="row">
                                 <div class="col-7">
                                     <div class="text-primary p-4">
-                                        <h5 class="text-primary">Free Register</h5>
-                                        <p>Get your free Skote account now.</p>
+                                        <h5 class="text-primary">Cadastre-se</h5>
+                                        <p></p>
                                     </div>
                                 </div>
                                 <div class="col-5 align-self-end">
@@ -54,13 +54,13 @@
                                                     </div>
                                                     <button type="button"
                                                         class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill"
-                                                        style="width: 2rem; height:2rem;">1</button>
+                                                        style="width: 4.1rem; height:4.1rem; font-size: 0.6rem;">Dados Pessoais</button>
                                                     <button type="button"
                                                         class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill"
-                                                        style="width: 2rem; height:2rem;">2</button>
+                                                        style="width: 4.1rem; height:4.1rem; font-size: 0.6rem;">Endereço</button>
                                                     <button type="button"
                                                         class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill"
-                                                        style="width: 2rem; height:2rem;">3</button>
+                                                        style="width: 4.1rem; height:4.1rem; font-size: 0.6rem;">Acesso</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -70,68 +70,131 @@
                             <div class="p-2">
                                 <form class="needs-validation" novalidate action="index.html">
 
-                                    <div class="mb-3">
+                                 
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Selecione o tipo de conta</label>
+                                                    <select class="form-control select2">
+                                                        <option></option>
+                                                            <option value="PF">Pessoa Física</option>
+                                                            <option value="PJ">Pessoa Jurídica</option>                                             
+                                                    </select>
+                                                </div>
+                                            </div>   
+                                        </div>
+                                  
+                                    <div class="mb-3 row">
+
+                                        <div class="col-md-4">
                                         <label for="username" class="form-label">Nome</label>
                                         <input type="text" class="form-control" id="username"
-                                            placeholder="Enter username" required>
+                                            placeholder="Informe o seu nome" required>
                                         <div class="invalid-feedback">
-                                            Informe o seu primeiro nome
+                                           Informe o seu primeiro nome
                                         </div>
                                     </div>
 
-                                    <div class="mb-3">
+                                    <div class="col-md-8">
                                         <label for="username" class="form-label">Sobrenome</label>
                                         <input type="text" class="form-control" id="username"
-                                            placeholder="Enter username" required>
+                                            placeholder="Informe o seu sobrenome" required>
                                         <div class="invalid-feedback">
                                             Informe o seu sobrenome
 
                                         </div>
                                     </div>
-
-                                    <div class="mb-3">
-                                        <label for="username" class="form-label">Nome de usuário</label>
-                                        <input type="text" class="form-control" id="username"
-                                            placeholder="Enter username" required>
-                                        <div class="invalid-feedback">
-                                            Please Enter Username
-                                        </div>
                                     </div>
 
-                                    <div class="mb-3">
-                                        <label for="userpassword" class="form-label">Senha</label>
-                                        <input type="password" class="form-control" id="userpassword"
-                                            placeholder="Enter password" required>
-                                        <div class="invalid-feedback">
-                                            Please Enter Password
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                          <label for="example-date-input" >Data de Nascimento</label>
+                                      
+                                               <input class="form-control" type="date" value="2019-08-19"
+                                                id="example-date-input">
+                                          </div>
+                                          
+                                          <div class="col-md-4">
+                                            <div class="mb-3">
+                                                <label class="form-label">Gênero</label>
+                                                <select class="form-control select2">
+                                                    <option></option>
+                                                        <option value="F">Feminino</option>
+                                                        <option value="M">Masculino</option>                                             
+                                                </select>
+                                            </div>
+                                        </div>   
+
+                                        <div class="col-md-4">
+                                            <div class="mb-3">
+                                                <label class="form-label">Estado Civil</label>
+                                                <select class="form-control select2">
+                                                    <option></option>
+                                                        <option value="F">Casado</option>
+                                                        <option value="M">Solteiro</option>                                             
+                                                </select>
+                                            </div>
+                                        </div>   
+                                    </div>
+
+                                    <div class="mb-3 row">
+                                        <div class="col-md-4">
+                                          <label for="example-text-input" >CPF</label>
+                                      
+                                          <div class="col-md-12">
+                                            <input class="form-control" type="text" value=""
+                                                placeholder="Enter Number" id="example-number-input">
+                                          </div>
                                         </div>
+
+                                        <div class="col-md-4">
+                                          <label for="example-text-input" >RG</label>
+                                      
+                                          <div class="col-md-12">
+                                            <input class="form-control" type="text" value=""
+                                                placeholder="Enter Number" id="example-number-input">
+                                          </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <label for="example-text-input" >Órgão Emissor</label>
+                                        
+                                            <div class="col-md-12">
+                                              <input class="form-control" type="text" value=""
+                                                  placeholder="Enter Number" id="example-number-input">
+                                            </div>
+                                          </div>
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="useremail" class="form-label">E-mail</label>
                                         <input type="email" class="form-control" id="useremail"
-                                            placeholder="Enter email" required>
+                                            placeholder="Informe seu e-mail" required>
                                         <div class="invalid-feedback">
-                                            Please Enter Email
+                                            Informe um e-mail
                                         </div>
                                     </div>
 
                                     <div class="mb-3">
-                                        <label for="userpassword" class="form-label">Confirmar senha</label>
-                                        <input type="password" class="form-control" id="userpassword"
-                                            placeholder="Enter password" required>
+                                        <label for="useremail" class="form-label">Confirmar e-mail</label>
+                                        <input type="email" class="form-control" id="useremail"
+                                            placeholder="Confirme seu e-mail" required>
                                         <div class="invalid-feedback">
-                                            Please Enter Password
+                                            Informe um e-mail
                                         </div>
                                     </div>
 
+
+                                 
+
                                     <div class="mt-4 d-grid">
                                         <button class="btn btn-primary waves-effect waves-light"
-                                            type="submit">Register</button>
+                                            type="submit">Próximo</button>
                                     </div>
 
                                     <div class="mt-4 text-center">
-                                        <h5 class="font-size-14 mb-3">Sign up using</h5>
+                                        <h5 class="font-size-14 mb-3">Faça login usando</h5>
 
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
@@ -156,8 +219,8 @@
                                     </div>
 
                                     <div class="mt-4 text-center">
-                                        <p class="mb-0">By registering you agree to the Skote <a href="#"
-                                                class="text-primary">Terms of Use</a></p>
+                                        <p class="mb-0"><a href="#"
+                                                class="text-primary">Termos de Uso</a></p>
                                     </div>
                                 </form>
                             </div>
@@ -167,11 +230,10 @@
                     <div class="mt-5 text-center">
 
                         <div>
-                            <p>Already have an account ? <a href="auth-login.html" class="fw-medium text-primary">
-                                    Login</a> </p>
+                            <p>Já possui uma conta?<a href="auth-login.html" class="fw-medium text-primary">
+                                    Login</a></p>
                             <p>©
-                                <script>document.write(new Date().getFullYear())</script> Skote. Crafted with <i
-                                    class="mdi mdi-heart text-danger"></i> by Themesbrand
+                                <script>document.write(new Date().getFullYear())</script> Lenoxx.
                             </p>
                         </div>
                     </div>
