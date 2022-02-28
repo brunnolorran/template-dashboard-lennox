@@ -463,7 +463,7 @@
         </header>
 
         <!-- ========== Left Sidebar Start ========== -->
-     <div class="vertical-menu">
+      <div class="vertical-menu">
 
             <div data-simplebar class="h-100">
 
@@ -704,6 +704,8 @@
         </div>
         <!-- Left Sidebar End -->
 
+
+
         <!-- ============================================================== -->
         <!-- Start right Content here -->
         <!-- ============================================================== -->
@@ -714,21 +716,21 @@
 
                     <!-- start page title -->
                     <div class="row">
-                        <div class="col-16">
+                        <div class="col-12">
                             <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0 font-size-18">Documentos</h4>
+                                <h4 class="mb-sm-0 font-size-18">Extrato Consolidado Bônus</h4>
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="javascript: void(0);">Tables</a></li>
-                                        <li class="breadcrumb-item active">Extrato Bônus A</li>
+                                        <li class="breadcrumb-item active">Extrato Consolidado de Bônus/li>
                                     </ol>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <!-- end page title -->                     
+                    <!-- end page title -->
 
                     <div class="row">
                         <div class="col-12">
@@ -742,51 +744,120 @@
                                         <div class="table-responsive mb-0" data-pattern="priority-columns">
                                             <table id="tech-companies-1" class="table table-striped">
                                                 <thead>
+                                                  <div class="btn-group">
+                                                    <button type="button" class="btn btn-secondary btn-sm">Exportar</button>
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm dropdown-toggle dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">PDF</a>
+                                                        <a class="dropdown-item" href="#">EXCEL</a>
+                                                        <a class="dropdown-item" href="#">CSV</a>
+    
+                                                    </div>
+                                                </div><!-- /btn-group -->
                                                     <tr>
                                                         <th>ID</th>
-                                                        <th data-priority="1">Nome | ID Cadastro</th>
+                                                        <th data-priority="1">Descrição</th>
+                                                        <th data-priority="1">Nível Compra</th>
+                                                        <th data-priority="1">Reservado</th>
+                                                        <th data-priority="1">Pago</th>
+                                                        <th data-priority="1">Disponível</th>
                                                         <th>Data</th>
-                                                        <th data-priority="1">Conta</th>
                                                         <th data-priority="1">Status</th>
                                                         <th data-priority="3">Ações</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <th>3</th>
-                                                        <th><p class="mb-1">Lennon Vinicius Trindade Reikdal</p>
-                                                            <p class="mb-1">ID: 82013504</p>
+                                                        <th>6</th>
+                                                        <th><p class="mb-1">Pedido #171</p>
+                                                            <p class="mb-1">Valor do Pedido: R$509,75</p>
                                                         </th>
-                                                        <td>23/02/2022 - 01:05</td>
-                                                        <td>PF</td>
+                                                        <td>9</td>
+                                                        <td>R$92,00</td>
+                                                        <td>R$92,00</td>
+                                                        <td>R$0,00</td>
+                                                        <td>03/11/2021</td>
                                                         <td> <span
-                                                            class="badge badge-pill badge-soft-warning font-size-12">Pendente</span></td>
+                                                            class="badge badge-pill badge-soft-success font-size-12">Completo</span></td>
                                                         <td> <button type="button"
                                                             class="btn btn-primary btn-sm waves-effect waves-light">Detalhes</button></td>
-                                                    </tr>  
-
+                                                    </tr>
+                                                    <tr>
+                                                        <th>5</th>
+                                                        <th><p class="mb-1">Pedido #171</p>
+                                                            <p class="mb-1">Valor do Pedido: R$509,75</p>
+                                                        </th>
+                                                        <td>9</td>
+                                                        <td>R$92,00</td>
+                                                        <td>R$92,00</td>
+                                                        <td>R$0,00</td>
+                                                        <td>03/11/2021</td>
+                                                        <td>  <span
+                                                            class="badge badge-pill badge-soft-success font-size-12">Completo</span></td>
+                                                        <td> <button type="button"
+                                                            class="btn btn-primary btn-sm waves-effect waves-light">Detalhes</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>4</th>
+                                                        <th><p class="mb-1">Pedido #171</p>
+                                                            <p class="mb-1">Valor do Pedido: R$509,75</p>
+                                                        </th>
+                                                        <td>9</td>
+                                                        <td>R$92,00</td>
+                                                        <td>R$82,00</td>
+                                                        <td>R$10,00</td>
+                                                        <td>03/11/2021</td>
+                                                        <td> <span
+                                                            class="badge badge-pill badge-soft-warning font-size-12">Processando</span></td>
+                                                        <td> <button type="button"
+                                                            class="btn btn-primary btn-sm waves-effect waves-light">Detalhes</button></td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <th>3</th>
+                                                        <th><p class="mb-1">Pedido #171</p>
+                                                            <p class="mb-1">Valor do Pedido: R$509,75</p>
+                                                        </th>
+                                                        <td>9</td>
+                                                        <td>R$92,00</td>
+                                                        <td>R$92,00</td>
+                                                        <td>R$0,00</td>
+                                                        <td>03/11/2021</td>
+                                                        <td>  <span
+                                                            class="badge badge-pill badge-soft-success font-size-12">Completo</span></td>
+                                                        <td> <button type="button"
+                                                            class="btn btn-primary btn-sm waves-effect waves-light">Detalhes</button></td>
+                                                    </tr> 
                                                     <tr>
                                                         <th>2</th>
-                                                        <th><p class="mb-1">Lennon Vinicius Trindade Reikdal</p>
-                                                            <p class="mb-1">ID: 82013504</p>
+                                                        <th><p class="mb-1">Pedido #171</p>
+                                                            <p class="mb-1">Valor do Pedido: R$509,75</p>
                                                         </th>
-                                                        <td>23/02/2022 - 01:05</td>
-                                                        <td>PF</td>
-                                                        <td> <span
-                                                            class="badge badge-pill badge-soft-danger font-size-12">Reprovado</span></td>
+                                                        <td><p class="mb-1">9</p></td>
+                                                        <td>R$92,00</td>
+                                                        <td>R$92,00</td>
+                                                        <td>R$0,00</td>
+                                                        <td>03/11/2021</td>
+                                                        <td><span
+                                                            class="badge badge-pill badge-soft-warning font-size-12">Processando</span></td>
                                                         <td> <button type="button"
                                                             class="btn btn-primary btn-sm waves-effect waves-light">Detalhes</button></td>
-                                                    </tr>  
+                                                    </tr> 
                                                     <tr>
                                                         <th>1</th>
-                                                        <th><p class="mb-1">Lennon Vinicius Trindade Reikdal</p>
-                                                            <p class="mb-1">ID: 82013504</p>
+                                                        <th><p class="mb-1">Pedido #171</p>
+                                                            <p class="mb-1">Valor do Pedido: R$509,75</p>
                                                         </th>
-                                                        <td>23/02/2022 - 01:00</td>
-                                                        <td>PF</td>
-                                                      
-                                                        <td> <span
-                                                            class="badge badge-pill badge-soft-success font-size-12">Aprovado</span></td>
+                                                        <td>9</td>
+                                                        <td>R$92,00</td>
+                                                        <td>R$87,00</td>
+                                                        <td>R$5,00</td>
+                                                        <td>03/11/2021</td>
+                                                        <td><span
+                                                            class="badge badge-pill badge-soft-warning font-size-12">Processando</span></td>
                                                         <td> <button type="button"
                                                             class="btn btn-primary btn-sm waves-effect waves-light">Detalhes</button></td>
                                                     </tr>                                                                                                                                                                                                                                                     
